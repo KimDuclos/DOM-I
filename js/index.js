@@ -67,3 +67,20 @@ aboutContent[1].innerHTML = siteContent['main-content']['about-content'];
 let middle = document.getElementById('middle-img');
 middle.setAttribute('src', siteContent['main-content']['middle-img-src']);
 
+// Bottom content - Services
+let servicesTitle = document.getElementsByTagName('h4');
+servicesTitle[3].innerHTML = siteContent['main-content']['services-h4'];
+
+let servicesContent = document.getElementsByTagName('p');
+servicesContent[3].innerHTML = siteContent['main-content']['services-content'];
+
+// Bottom content - Product
+let productTitle = document.getElementsByTagName('h4');
+productTitle[4].innerHTML = siteContent['main-content']['product-h4'];
+
+let productContent = document.getElementsByTagName('p');
+productContent[4].innerHTML = siteContent['main-content']['product-content'];
+
+// Bottom content - Vision
+
+
