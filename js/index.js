@@ -57,6 +57,12 @@ let nav6 = document.getElementsByTagName('a');
 nav1[5].innerHTML = siteContent['nav']['nav-item-6'];
 
 
+// change nav text color
+const navFont = document.querySelectorAll('a');
+navFont.forEach(a => {
+  a.style.color = 'red';
+});
+
 // Example: Update the img src for the logo
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"]);
