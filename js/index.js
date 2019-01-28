@@ -49,9 +49,9 @@ CTAtext[0].innerHTML = siteContent['cta']['h1'];
 let header = document.getElementById("cta-img");
 header.setAttribute('src', siteContent['cta']['img-src']);
 
-// // Button
-// let btn = document.getElementsByTagName('btnTxt');
-// btn[0].innerHTML = siteContent['cta']['button'];
+// Button
+let btn = document.getElementsByTagName("button");
+btn[0].innerHTML = siteContent['cta']['button'];
 
 // Features content
 let featuresTitle = document.getElementsByTagName('h4');
@@ -86,7 +86,6 @@ let productContent = document.getElementsByTagName('p');
 productContent[4].innerHTML = siteContent['main-content']['product-content'];
 
 // Bottom content - Vision
-
 let visionTitle = document.getElementsByTagName('h4');
 visionTitle[5].innerHTML = siteContent['main-content']['vision-h4'];
 
