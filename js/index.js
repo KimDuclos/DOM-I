@@ -49,6 +49,10 @@ CTAtext[0].innerHTML = siteContent['cta']['h1'];
 let header = document.getElementById("cta-img");
 header.setAttribute('src', siteContent['cta']['img-src']);
 
+// // Button
+// let btn = document.getElementsByTagName('btnTxt');
+// btn[0].innerHTML = siteContent['cta']['button'];
+
 // Features content
 let featuresTitle = document.getElementsByTagName('h4');
 featuresTitle[0].innerHTML = siteContent['main-content']['features-h4'];
@@ -82,5 +86,29 @@ let productContent = document.getElementsByTagName('p');
 productContent[4].innerHTML = siteContent['main-content']['product-content'];
 
 // Bottom content - Vision
+
+let visionTitle = document.getElementsByTagName('h4');
+visionTitle[5].innerHTML = siteContent['main-content']['vision-h4'];
+
+let visionContent = document.getElementsByTagName('p');
+visionContent[5].innerHTML = siteContent['main-content']['vision-content'];
+
+// Contact
+let contactTitle = document.getElementsByTagName('h4');
+contactTitle[6].innerHTML = siteContent['contact']['contact-h4'];
+
+// Contact Address
+let address = document.getElementsByTagName('p');
+address[6].innerHTML = siteContent['contact']['address'];
+
+// Contact phone
+let phone = document.getElementsByTagName('p');
+phone[7].innerHTML = siteContent['contact']['phone'];
+
+// Contact Email
+
+let email = document.getElementsByTagName('p');
+email[7].innerHTML = siteContent['contact']['email'];
+
 
 
