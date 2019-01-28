@@ -39,4 +39,31 @@ const siteContent = {
 
 // Example: Update the img src for the logo
 let logo = document.getElementById("logo-img");
-logo.setAttribute('src', siteContent["nav"]["img-src"])
+logo.setAttribute('src', siteContent["nav"]["img-src"]);
+
+// Update the CTA text 
+let CTAtext = document.getElementsByTagName('h1');
+CTAtext[0].innerHTML = siteContent['cta']['h1'];
+
+// Updates header image
+let header = document.getElementById("cta-img");
+header.setAttribute('src', siteContent['cta']['img-src']);
+
+// Features content
+let featuresTitle = document.getElementsByTagName('h4');
+featuresTitle[0].innerHTML = siteContent['main-content']['features-h4'];
+
+let featuresContent = document.getElementsByTagName('p');
+featuresContent[0].innerHTML = siteContent['main-content']['features-content'];
+
+// About content
+let aboutTitle = document.getElementsByTagName('h4');
+aboutTitle[1].innerHTML = siteContent['main-content']['about-h4'];
+
+let aboutContent = document.getElementsByTagName('p');
+aboutContent[1].innerHTML = siteContent['main-content']['about-content'];
+
+// Updates middle image
+let middle = document.getElementById('middle-img');
+middle.setAttribute('src', siteContent['main-content']['middle-img-src']);
+
