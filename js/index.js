@@ -57,11 +57,24 @@ let nav6 = document.getElementsByTagName('a');
 nav1[5].innerHTML = siteContent['nav']['nav-item-6'];
 
 
+// add item to beginning of nav
+const newBeginning = document.createElement('a');
+const newBeginningText = document.createTextNode('The Beginning');
+newBeginning.prepend(newBeginningText);
+document.querySelector('nav').prepend(newBeginning);
+
+// add item to end of nav
+const newEndThing = document.createElement('a');
+const endText = document.createTextNode('The End');
+newEndThing.appendChild(endText);
+document.querySelector('nav').append(newEndThing);
+
 // change nav text color
 const navFont = document.querySelectorAll('a');
 navFont.forEach(a => {
   a.style.color = 'red';
 });
+
 
 // Example: Update the img src for the logo
 let logo = document.getElementById("logo-img");
