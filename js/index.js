@@ -37,6 +37,26 @@ const siteContent = {
   },
 };
 
+// nav
+let nav1 = document.getElementsByTagName('a');
+nav1[0].innerHTML = siteContent['nav']['nav-item-1'];
+
+let nav2 = document.getElementsByTagName('a');
+nav1[1].innerHTML = siteContent['nav']['nav-item-2'];
+
+let nav3 = document.getElementsByTagName('a');
+nav1[2].innerHTML = siteContent['nav']['nav-item-3'];
+
+let nav4 = document.getElementsByTagName('a');
+nav1[3].innerHTML = siteContent['nav']['nav-item-4'];
+
+let nav5 = document.getElementsByTagName('a');
+nav1[4].innerHTML = siteContent['nav']['nav-item-5'];
+
+let nav6 = document.getElementsByTagName('a');
+nav1[5].innerHTML = siteContent['nav']['nav-item-6'];
+
+
 // Example: Update the img src for the logo
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"]);
@@ -73,39 +93,38 @@ middle.setAttribute('src', siteContent['main-content']['middle-img-src']);
 
 // Bottom content - Services
 let servicesTitle = document.getElementsByTagName('h4');
-servicesTitle[3].innerHTML = siteContent['main-content']['services-h4'];
+servicesTitle[2].innerHTML = siteContent['main-content']['services-h4'];
 
 let servicesContent = document.getElementsByTagName('p');
-servicesContent[3].innerHTML = siteContent['main-content']['services-content'];
+servicesContent[2].innerHTML = siteContent['main-content']['services-content'];
 
 // Bottom content - Product
 let productTitle = document.getElementsByTagName('h4');
-productTitle[4].innerHTML = siteContent['main-content']['product-h4'];
+productTitle[3].innerHTML = siteContent['main-content']['product-h4'];
 
 let productContent = document.getElementsByTagName('p');
-productContent[4].innerHTML = siteContent['main-content']['product-content'];
+productContent[3].innerHTML = siteContent['main-content']['product-content'];
 
 // Bottom content - Vision
 let visionTitle = document.getElementsByTagName('h4');
-visionTitle[5].innerHTML = siteContent['main-content']['vision-h4'];
+visionTitle[4].innerHTML = siteContent['main-content']['vision-h4'];
 
 let visionContent = document.getElementsByTagName('p');
-visionContent[5].innerHTML = siteContent['main-content']['vision-content'];
+visionContent[4].innerHTML = siteContent['main-content']['vision-content'];
 
 // Contact
 let contactTitle = document.getElementsByTagName('h4');
-contactTitle[6].innerHTML = siteContent['contact']['contact-h4'];
+contactTitle[5].innerHTML = siteContent['contact']['contact-h4'];
 
 // Contact Address
 let address = document.getElementsByTagName('p');
-address[6].innerHTML = siteContent['contact']['address'];
+address[5].innerHTML = siteContent['contact']['address'];
 
 // Contact phone
 let phone = document.getElementsByTagName('p');
-phone[7].innerHTML = siteContent['contact']['phone'];
+phone[6].innerHTML = siteContent['contact']['phone'];
 
 // Contact Email
-
 let email = document.getElementsByTagName('p');
 email[7].innerHTML = siteContent['contact']['email'];
 
